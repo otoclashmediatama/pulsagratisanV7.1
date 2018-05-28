@@ -1,0 +1,44 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#607D8B"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:focusable="false"
+			android:layout_width="150dp"
+			android:layout_height="150dp"
+			android:src="@drawable/rateapp"
+			android:scaleType="fitXY"/>
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#607D8B"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview1"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Beri Penilaian Aplikasi PULSA GRATISAN dan Dapatkan Tamabahan 100 Poin"
+				android:textSize="16sp"
+				android:textStyle="bold|italic"
+				android:textColor="#FFFFFF"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

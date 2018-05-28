@@ -1,0 +1,33 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<WebView
+			android:id="@+id/webview1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:padding="3dp"
+			android:gravity="right|center_vertical"
+			android:orientation="horizontal"
+			android:translationY="-50.0dp">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:src="@drawable/reload_icon"
+				android:scaleType="fitXY"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
